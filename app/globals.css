@@ -165,4 +165,5 @@ p { margin: 0; }
 @media (max-width: 860px) {
   .hero-grid, .how-grid, .demo-grid { grid-template-columns: 1fr; }
   .container { padding: 0 20px; }
+  .scroll-journey-wrap { display: none; }
 }

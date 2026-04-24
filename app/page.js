@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <ScrollJourney />
+      <div className="scroll-journey-wrap"><ScrollJourney /></div>
       <main>
         <div id="top">
           <Hero />
