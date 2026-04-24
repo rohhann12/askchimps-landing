@@ -38,9 +38,9 @@ const Nav = () => {
         }}>
           {["Product", "Use cases", "Customers", "Pricing"].map(l => {
             const href = {
-              "Product": "product.html",
-              "Use cases": "use-cases.html",
-              "Customers": "customers.html",
+              "Product": "#product",
+              "Use cases": "#use-cases",
+              "Customers": "#metrics",
               "Pricing": "#cta",
             }[l];
             return (
